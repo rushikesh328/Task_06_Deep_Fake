@@ -1,0 +1,8 @@
+INTERVIEWER: Welcome to today’s interview. Can you share your thoughts on the season so far?
+EXPERT: The season has been intense, with strong performances from Red Bull and Ferrari.
+INTERVIEWER: Which driver surprised you the most?
+EXPERT: Oscar Piastri has shown great consistency for a rookie in sprint races.
+INTERVIEWER: What do you expect for the rest of the year?
+EXPERT: Teams will focus on upgrades before the final stretch, so strategies will be key.
+INTERVIEWER: Is starting position a strong predictor of finishing position in sprint races?
+EXPERT: In my opinion it is a strong predictor, since you get the advantage of being in the front of the field and have to pass less number of cars to get more points.
