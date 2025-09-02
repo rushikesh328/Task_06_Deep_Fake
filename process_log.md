@@ -3,7 +3,7 @@
 This file documents the step-by-step process of creating the AI-generated deep fake interview.
 
 ## Step 1: Project Setup
-- Created folder structure (`deepfake_task6` with subfolders: outputs, segments, logs, video).
+- Created folder structure (`deepfake_task6` with subfolders: outputs, segments, logs).
 - Installed dependencies: `edge-tts`, `pydub`, and `ffmpeg`.
 
 ## Step 2: Script Creation
@@ -25,3 +25,4 @@ This file documents the step-by-step process of creating the AI-generated deep f
 ## Step 6: Next Steps
 - Optionally add background noise or video overlay to simulate a street interview.
 - Explore free tools for lip-sync video if time allows.
+
