@@ -1,3 +1,8 @@
+# Research Task 6 — AI “Deep Fake” Interview 
+
+## Overview
+This project demonstrates the process of generating interview mixes using Python scripts. The goal of this assignment was to automate the creation of interview audio files by combining multiple text-to-speech segments. It involves handling dependencies, running scripts, and troubleshooting errors during execution.
+
 ## Workflow Summary
 
 The project follows a four-step workflow:
