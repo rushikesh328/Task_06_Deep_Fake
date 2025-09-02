@@ -10,12 +10,5 @@ This file records prompts given to ChatGPT (LLM) and responses used in this proj
 - **Prompt:** "Show me how to generate AI audio from a text script using free tools."
 - **Response:** Provided step-by-step script (`tts_generate.py`) using `edge-tts` and `pydub`.
 
-## Prompt 3
-- **Prompt:** "How should I structure my folders for this project?"
-- **Response:** Recommended folder setup with `outputs`, `segments`, `logs`, and `video`.
-
-## Prompt 4
-- **Prompt:** "Help me write a README.md for my GitHub project."
-- **Response:** Created a README with run instructions and project summary.
-
 ---
+
