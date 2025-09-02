@@ -7,20 +7,36 @@ This project demonstrates the process of generating interview mixes using Python
 
 The project follows a four-step workflow:
 
-1. **Prepare Input Data**  
-   - Collect text inputs for the interview.  
-   - Place all text files in the `data/` folder.
+1. **Draft your interview script**
+- Keep it **60–120 seconds** (8–16 lines total).
+- Use clear speaker labels: `INTERVIEWER:` / `EXPERT:`
+- Put your script into `script_example.txt` or replace it with your own.
 
-2. **Generate TTS Segments**  
-   - Run `tts_generate.py` to convert text into individual audio files.
-   - Install 'e
-   - Ensure all dependencies like `edge_tts` are installed.
+2. **Generate audio with `edge-tts`**
+- Install dependencies (in a fresh virtual environment is recommended):
 
-3. **Combine Audio Segments**  
-   - Run `tts_generate.py` to merge all TTS segments into a single audio file.  
-   - Output is saved in the `data/output/` folder.
+```bash
+pip install edge-tts pydub
+# pydub needs ffmpeg on your system PATH (download/install ffmpeg, then reopen terminal)
+```
 
-4. **Verify Output**  
-   - Listen to the final audio mix.  
-   - Ensure all segments are included and properly synchronized.
+3. **Generate TTS Segments**  
+- Run `tts_generate.py` to convert text into individual audio files.
+- Ensure all dependencies like `edge_tts` are installed.
 
+4. **Combine Audio Segments**  
+- Run the script:
+```bash
+python tts_generate.py --script script_example.txt   --voice_a en-US-JennyNeural --voice_b en-GB-RyanNeural   --out         outputs/interview_mix.mp3
+```
+- Output is saved in the `data/output/` folder.
+
+5. **Verify Output**  
+- Listen to the final audio mix.  
+- Ensure all segments are included and properly synchronized.
+
+## Ethics & Disclosure (include in video/audio description)
+
+- “This interview is **AI-generated** for academic purposes.”  
+- “No private individual’s identity was used without consent.”  
+- “Voices are synthetic; any resemblance is coincidental.”
