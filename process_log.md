@@ -17,12 +17,11 @@ This file documents the step-by-step process of creating the AI-generated deep f
 ## Step 4: Challenges
 - Voice timing between segments required manual pauses (added 500ms silence).
 - Installing ffmpeg was necessary for audio processing.
+- Had difficulty with converting audio to video since it was paid service wherever I looked.
 
 ## Step 5: Results
-- Successfully generated a 1–2 minute AI interview in audio form.
+- Successfully generated a around 1 minute AI interview in audio form.
 - Interview realistically mimics a Q&A session.
 
-## Step 6: Next Steps
-- Optionally add background noise or video overlay to simulate a street interview.
-- Explore free tools for lip-sync video if time allows.
+
 
